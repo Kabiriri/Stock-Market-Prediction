@@ -276,7 +276,7 @@ This project demonstrates:
 ### **For Hiring Managers**
 ```bash
 # One-command demo
-docker run -p 8501:8501 -e SERVICE_TYPE=dashboard leorigasaki535/stock-prediction-dashboard:latest
+docker run -p 8501:8501 -e SERVICE_TYPE=dashboard Kabiriri/Time-Series-Library/stock-prediction-dashboard:latest
 # Visit http://localhost:8501 for interactive demo
 ```
 
@@ -314,3 +314,4 @@ This project is for educational and portfolio demonstration purposes.
 
 
 </div>
+
