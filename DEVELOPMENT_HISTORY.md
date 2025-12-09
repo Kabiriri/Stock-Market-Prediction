@@ -342,10 +342,11 @@ docker-compose -f docker-compose-public.yml up
 ```
 
 **Portfolio Links:**
-- **Dashboard**: https://hub.docker.com/r/leorigasaki535/stock-prediction-dashboard
-- **API**: https://hub.docker.com/r/leorigasaki535/stock-prediction-api
-- **GitHub**: https://github.com/LeoRigasaki/Stock-Engine
+- **Dashboard**: https://hub.docker.com/r/kabiriri/stock-prediction-dashboard
+- **API**: https://hub.docker.com/r/kabiriri/stock-prediction-api
+- **GitHub**: https://github.com/kabiriri/Stock-Engine
 
 ---
+
 
 *Built with Python, Docker, FastAPI, Streamlit, XGBoost, LightGBM, and professional software engineering practices.*
