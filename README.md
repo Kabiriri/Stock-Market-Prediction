@@ -3,27 +3,27 @@
 > **Advanced Machine Learning System for Real-Time Stock Market Analysis and Prediction**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://hub.docker.com/r/leorigasaki535/stock-prediction-dashboard)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-green.svg)](https://github.com/LeoRigasaki/Stock-Engine)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://hub.docker.com/r/kabiriri/stock-prediction-dashboard)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-green.svg)](https://github.com/kabiriri/Stock-Engine)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 🚀 One-Command Demo
 
 ### **Interactive Dashboard (Recommended)**
 ```bash
-docker run -p 8501:8501 -e SERVICE_TYPE=dashboard leorigasaki535/stock-prediction-dashboard:latest
+docker run -p 8501:8501 -e SERVICE_TYPE=dashboard kabiriri/stock-prediction-dashboard:latest
 ```
 **Then visit:** http://localhost:8501
 
 ### **REST API with Swagger Docs**
 ```bash
-docker run -p 8000:8000 -e SERVICE_TYPE=api leorigasaki535/stock-prediction-api:latest
+docker run -p 8000:8000 -e SERVICE_TYPE=api kabiriri/stock-prediction-api:latest
 ```
 **Then visit:** http://localhost:8000/docs
 
 ### **Complete System**
 ```bash
-curl -O https://raw.githubusercontent.com/LeoRigasaki/Stock-Engine/main/docker-compose-public.yml
+curl -O https://raw.githubusercontent.com/kabiriri/Stock-Engine/main/docker-compose-public.yml
 docker-compose -f docker-compose-public.yml up
 ```
 
@@ -297,9 +297,9 @@ This project is for educational and portfolio demonstration purposes.
 
 ## 🔗 Links
 
-- **🐳 Docker Hub**: [leorigasaki535/stock-prediction-dashboard](https://hub.docker.com/r/leorigasaki535/stock-prediction-dashboard)
-- **📊 Interactive Demo**: `docker run -p 8501:8501 -e SERVICE_TYPE=dashboard leorigasaki535/stock-prediction-dashboard:latest`
-- **🔗 API Documentation**: `docker run -p 8000:8000 -e SERVICE_TYPE=api leorigasaki535/stock-prediction-api:latest`
+- **🐳 Docker Hub**: [kabiriri/stock-prediction-dashboard](https://hub.docker.com/r/kabiriri/stock-prediction-dashboard)
+- **📊 Interactive Demo**: `docker run -p 8501:8501 -e SERVICE_TYPE=dashboard kabiriri/stock-prediction-dashboard:latest`
+- **🔗 API Documentation**: `docker run -p 8000:8000 -e SERVICE_TYPE=api kabiriri/stock-prediction-api:latest`
 
 ---
 
@@ -307,9 +307,10 @@ This project is for educational and portfolio demonstration purposes.
 
 **⭐ Star this repository if you find it useful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/LeoRigasaki/stock-market-prediction-engine?style=social)](https://github.com/LeoRigasaki/stock-market-prediction-engine)
-[![Docker Pulls](https://img.shields.io/docker/pulls/leorigasaki535/stock-prediction-dashboard)](https://hub.docker.com/r/leorigasaki535/stock-prediction-dashboard)
+[![GitHub stars](https://img.shields.io/github/stars/kabiriri/stock-market-prediction-engine?style=social)](https://github.com/kabiriri/stock-market-prediction-engine)
+[![Docker Pulls](https://img.shields.io/docker/pulls/kabiriri/stock-prediction-dashboard)](https://hub.docker.com/r/kabiriri/stock-prediction-dashboard)
 
 **Built with fun for the data science and finance community**
+
 
 </div>
